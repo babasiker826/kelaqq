@@ -16,7 +16,7 @@ from markupsafe import escape
 # AYARLAR - Environment variables'dan al
 API_ID = os.environ.get('API_ID', '24179304')
 API_HASH = os.environ.get('API_HASH', '6fdbaf87f6fa54a1a8a51603bf38c2d1')
-STRING_SESSION = os.environ.get('STRING_SESSION', '1BJWap1sBu1Hvk8Rq9ywWWMW_05ZesuafwQ-fC0b2wI_3EvHk2oLukDSwVHuHUhq4W9txmGAxoXwjXqe_LgSEliMFcRdtN9tKGIc57H5zmqrfRbhvoREo9QCsjDeqKkfz-6exzZmGyVyoMAm4XR6Xoc0BxfxyI3sMFBd3-8dFNjVrzInNd1C-ijjk_Zw8vbjJMRbLaVZYeoRvQ8X08sBd_wI2xUyvZoZf2keNJZi3CDTpSoPZ24i_MRcH61HLAxHGWMnyvCxA5Od4gDc-3bGOSEs8a1XhsVMifOdWShyYH5p6jnGN2h4DyuYuW6ZE5zZwLm2fDpYWiNTZnF1Vhs1MxbJF4Sx9brI=')
+STRING_SESSION = os.environ.get('STRING_SESSION', '1BJWap1sBu7trVyHQgaOl4IXGXzb5XR4O8yGV_iTIv34P2C5udznWarcnflrNH4gj2AAEdnRKnLLk8Z1QJjrftBvD0r6kuw6r9kkd-IBGSb2C6ANQRDn7uX_Sum-Z1gr8zrbfzMkhc9DW1E-0Ab_Nhr8mMDt4uQV3tUI8HD1o9hFABqRsGE6UjMQ8IBGblN0bzX2ctaoI1LjSQFTz4XhhheOwtVrSGx1_owBPOWXN15HIFiQFsZni743y93KiewQ88V9ZyzDbOg2O5XrzWSrhovFvuBJ6D9QyILCvFQX6TW8AGt7me_LGamEFnVjYihs0V9lYuvnumly-N9g2MF9mUHxLH8jVuec=')
 
 app = Flask(__name__)
 
